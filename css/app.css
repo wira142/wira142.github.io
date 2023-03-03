@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 2rem 3rem;
+}
+.container section {
+  padding: 40px 0;
+}
+.footer {
+  padding: 1rem 3rem;
+  text-align: center;
+  background: #5d646f;
+  color: #f7f7f7;
+  font-family: serif;
+}
+.footer p {
+  margin: 0;
+}
+.heading {
+  font-family: sans-serif;
+  color: #3a3f47;
+  font-size: 1.8rem;
+}
+.sub-heading {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #3a3f47;
+  margin-bottom: 20px;
+}
+.navbar {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-brand {
+  font-family: sans-serif;
+}
+.navbar .navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.navbar .navbar-list .nav-item .nav-link:hover {
+  color: #3a3f47;
+}
+.navbar .navbar-list .nav-item .nav-link {
+  text-decoration: none;
+  color: #5d646f;
+}
+
+.header {
+  color: #f7f7f7;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5d646f;
+  padding: 2rem 3rem;
+}
+.header h1 {
+  font-size: 3rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  justify-content: center;
+}
+.profile .profile-resume {
+  color: #5d646f;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+.profile .profile-img {
+  max-width: 30vmax;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  border-radius: 100%;
+  background-color: #f8b501;
+}
